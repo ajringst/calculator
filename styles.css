@@ -1,0 +1,74 @@
+ body, html {
+    background-image: linear-gradient(to bottom, #815a72, #8c5e76, #986278, #a3677b, #ae6b7c, #b86f7d, #c2737d, #cb787d, #d57d7c, #de837a, #e68a78, #ee9176);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .calculator {
+    background-color: #4B4453;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    border-radius: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    min-width: 300px;
+    min-height: 400px;
+ }
+.screen {
+    display: flex;
+    flex: 1;
+    width: 90%;
+    background-color: #72B8AA;
+    margin: 1.4rem;
+    margin-bottom: 0;
+    border-radius: .3rem;
+}
+.buttons {
+    height: 100%;
+    width: 95%;
+    display:flex;
+    flex: 5;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.7rem;
+}
+.row {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+ button {
+    font-size: 2rem;
+    border-radius: .3rem;
+    border-style: none;
+    background-color: #5DA0A6;
+    min-width: 2rem;
+    min-height: 2rem;
+    flex: 1;
+    margin: 0.7rem;
+ }
+ 
+ .row {
+    display: flex;
+    flex-direction: row;
+
+ }
+ #clear {
+    background-color: #FFC069;
+    flex : 3.6;
+ }
+
+ #equals {
+    background-color: #FFC069;
+    flex: 2.3;
+ }
