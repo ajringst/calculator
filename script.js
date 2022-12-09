@@ -1,5 +1,20 @@
 let screenValues = new Array(3);
 
+
+const indexCheck = function(){
+  if (screenValues[1] == undefined ){
+  console.log(screenValues[1]);
+  }
+};
+
+const nums = document.querySelectorAll(".number");
+const concatNum = nums.forEach(element => { element.addEventListener("click", function(){
+  value = toString(element.innerText);
+})
+});
+
+indexCheck(screenValues);
+
 const operate = function([first, operator, second]){
   let a = first * 1;
   let b = second * 1;
